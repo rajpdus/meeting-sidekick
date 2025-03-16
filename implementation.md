@@ -110,7 +110,7 @@ from queue import Queue
 class SpeechRecognizer:
     def __init__(self):
         self.audio_queue = Queue()
-        self.model = whisper.load_model("base")  # or use OpenAI API
+        self.model = whisper.Whisper.load_model("base")  # or use OpenAI API
         self.is_capturing = False
         self.transcription = []
         

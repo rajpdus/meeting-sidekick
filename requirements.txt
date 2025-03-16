@@ -1,7 +1,6 @@
 openai>=1.0.0
 pyaudio>=0.2.13
 numpy>=1.24.0
-whisper>=1.1.10
 rich>=13.0.0
 plyer>=2.1.0
 python-dotenv>=1.0.0
@@ -9,3 +8,4 @@ click>=8.1.0
 sounddevice>=0.4.6
 soundfile>=0.12.1
 pydub>=0.25.1
+openai-whisper>=20231117
